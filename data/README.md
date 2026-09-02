@@ -10,8 +10,8 @@ be re-run once access is obtained.
 | File | Description | Availability |
 |------|-------------|--------------|
 | `data_preprocessed/df_final.csv` | Integrated monthly panel: 119 districts × months (2005–2024), 13 columns (see schema). Contains the restricted dengue case counts. | **Restricted** - request from the Indonesian Ministry of Health (Kemenkes RI). |
-| `df_centroid.csv` | District centroid coordinates (`Kab/Kota`, `longitude`, `latitude`). Derived from public HDX boundaries. | Reproducible from the public GeoJSON (see below). |
-| `indonesia_kabupaten.geojson` | District administrative boundaries for Java. | **Public** - downloaded automatically by the notebook from HDX. |
+| `df_centroid.csv` | District centroid coordinates (`Kab/Kota`, `longitude`, `latitude`). Derived from public HDX boundaries. | Included / reproducible from the GeoJSON provided below |
+| `indonesia_kabupaten.geojson` | District administrative boundaries for Java. | **Public** - included in this repository. |
 
 ## Schema of `df_final.csv`
 
