@@ -31,9 +31,9 @@ DIR, DIR_log, longitude, latitude, temp_mean, humidity_mean, precip_sum
   case data cannot be redistributed. Researchers may request access directly from
   the Ministry of Health of the Republic of Indonesia. All derived case counts have
   been removed from the notebooks and outputs in this repository.
-- **Climate - ERA5-Land (Copernicus CDS).** Openly available from the Copernicus
+- **Climate - ERA5 Land (Copernicus CDS).** Openly available from the Copernicus
   Climate Data Store: https://cds.climate.copernicus.eu/
-- **Population — BPS (Statistics Indonesia).** Openly available: https://www.bps.go.id/
+- **Population - BPS (Statistics Indonesia).** Openly available: https://www.bps.go.id/
 - **Administrative boundaries - HDX.** Openly available; the notebook downloads the
   Java district GeoJSON automatically on first run.
 
