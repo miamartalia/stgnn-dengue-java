@@ -15,15 +15,23 @@ be re-run once access is obtained.
 
 ## Schema of `df_final.csv`
 
-```
-Provinsi, Kab/Kota, Year_Month, Tahun, Kasus_DBD, Jumlah_Penduduk,
-DIR, DIR_log, longitude, latitude, temp_mean, humidity_mean, precip_sum
-```
+## Schema of df_final.csv
 
-- `Kasus_DBD` - monthly confirmed dengue case counts (**restricted**).
-- `Jumlah_Penduduk` - district population (BPS).
-- `DIR`, `DIR_log` - dengue incidence rate per 100,000 and its log transform.
-- `temp_mean`, `humidity_mean`, `precip_sum` - monthly climate aggregates (ERA5-Land).
+| Column | Description |
+|---|---|
+| `Provinsi` | Province name. |
+| `Kab/Kota` | District/municipality name. |
+| `Year_Month` | Monthly observation period. |
+| `Tahun` | Year. |
+| `Kasus_DBD` | Monthly confirmed dengue case counts (restricted). |
+| `Jumlah_Penduduk` | District population (BPS). |
+| `DIR` | Dengue incidence rate per 100,000 population. |
+| `DIR_log` | Log-transformed dengue incidence rate. |
+| `longitude` | District centroid longitude. |
+| `latitude` | District centroid latitude. |
+| `temp_mean` | Monthly mean temperature from ERA5-Land. |
+| `humidity_mean` | Monthly mean relative humidity from ERA5-Land. |
+| `precip_sum` | Monthly accumulated precipitation from ERA5-Land. |
 
 ## Data sources and access
 
