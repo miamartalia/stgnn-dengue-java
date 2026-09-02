@@ -1,6 +1,6 @@
 ## Environment setup
 
-The experiments reported in the manuscript were conducted using:
+The experiments were conducted using:
 
 - Python 3.10.14
 - NumPy 1.26.4
