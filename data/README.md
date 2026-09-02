@@ -34,8 +34,7 @@ DIR, DIR_log, longitude, latitude, temp_mean, humidity_mean, precip_sum
 - **Climate - ERA5 Land (Copernicus CDS).** Openly available from the Copernicus
   Climate Data Store: https://cds.climate.copernicus.eu/
 - **Population - BPS (Statistics Indonesia).** Openly available: https://www.bps.go.id/
-- **Administrative boundaries - HDX.** Openly available; the notebook downloads the
-  Java district GeoJSON automatically on first run.
+- **Administrative boundaries - HDX.** The district-level administrative boundary GeoJSON used in this study is included in this repository as indonesia_kabupaten.geojson.
 
 ## Reproducing the public portions
 
