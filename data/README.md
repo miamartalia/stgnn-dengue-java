@@ -35,10 +35,7 @@ be re-run once access is obtained.
 
 ## Data sources and access
 
-- **Dengue case surveillance (Kemenkes RI).** Restricted. The raw and integrated
-  case data cannot be redistributed. Researchers may request access directly from
-  the Ministry of Health of the Republic of Indonesia. All derived case counts have
-  been removed from the notebooks and outputs in this repository.
+- **Dengue case surveillance (Kemenkes RI).** Restricted. The dengue surveillance data are not included in this repository and are not redistributed. Researchers seeking access should contact the Ministry of Health of the Republic of Indonesia (Kemenkes RI) and follow the applicable data access and authorization procedures. All case-count data derived from the restricted surveillance dataset have been removed from the notebooks and generated outputs.
 - **Climate - ERA5 Land (Copernicus CDS).** Openly available from the Copernicus
   Climate Data Store: https://cds.climate.copernicus.eu/
 - **Population - BPS (Statistics Indonesia).** Openly available: https://www.bps.go.id/
