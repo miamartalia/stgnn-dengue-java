@@ -57,8 +57,6 @@ pip install -r requirements.txt
 jupyter lab                      # or jupyter notebook
 ```
 
-Pin the exact package versions in `requirements.txt` to your environment before
-archiving the release (see below), so the DOI snapshot is fully reproducible.
 
 ## Model configuration (STGNN)
 
