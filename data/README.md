@@ -46,6 +46,12 @@ be re-run once access is obtained.
 
 ## Reproducing the public portions
 
-`df_centroid.csv` and `indonesia_kabupaten.geojson` can be regenerated from the
-public HDX GeoJSON without any restricted data. Only the modelling steps that use
-`Kasus_DBD` / `DIR` require the restricted file.
+## Reproducing the public portions
+
+The provided `indonesia_kabupaten.geojson` contains the public administrative
+boundaries used in this study, and `df_centroid.csv` contains the corresponding
+district centroid coordinates.
+
+The restricted `df_final.csv` is required for the dengue modelling workflow.
+Only the modelling steps that use `Kasus_DBD` and `DIR` require access to the
+restricted surveillance data.
