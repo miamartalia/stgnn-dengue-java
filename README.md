@@ -32,9 +32,10 @@ district-level Wilcoxon signed-rank tests (Holm-corrected).
 
 The dengue case surveillance data (Kemenkes RI) is **restricted and is not included**
 in this repository. All case counts have been removed from the notebooks and their
-outputs. The climate (ERA5-Land / Copernicus), population (BPS), and administrative
-boundary (HDX) sources are openly available. See [`data/README.md`](data/README.md)
-for the expected file schema and full source/access details.
+outputs. The climate data were obtained from the Copernicus Climate Data Store
+(ERA5-Land), population data from Statistics Indonesia (BPS), and
+administrative boundaries from the Humanitarian Data Exchange (HDX).
+Access and preprocessing details are provided in [`data/README.md`](data/README.md).
 
 ## Reproducibility
 
