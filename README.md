@@ -75,8 +75,11 @@ Graph construction: Haversine-KNN-Gaussian (K = 5, σ = 25 km).
 
 ## Citation
 
-If you use this code, please cite the paper. A `CITATION.cff` / BibTeX entry will be
-added once the article DOI is assigned.
+If you use this code or repository in your work, please cite the associated paper:
+
+> Martalia, A. M., et al. *A Spatio-Temporal Graph Neural Network for District-Level Dengue Incidence Rate Forecasting in Java, Indonesia.*
+
+The citation information will be updated once the article DOI is assigned.
 
 ## License
 
