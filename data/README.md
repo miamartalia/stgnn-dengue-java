@@ -13,8 +13,6 @@ be re-run once access is obtained.
 | `df_centroid.csv` | District centroid coordinates (`Kab/Kota`, `longitude`, `latitude`). Derived from public HDX boundaries. | Included in this repository. |
 | `indonesia_kabupaten.geojson` | District administrative boundaries for Java. | Public - included in this repository. |
 
-## Schema of `df_final.csv`
-
 ## Schema of df_final.csv
 
 | Column | Description |
