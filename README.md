@@ -40,7 +40,6 @@ Access and preprocessing details are provided in [`data/README.md`](data/README.
 ## Reproducibility
 
 - **Fixed seeds:** all experiments use five seeds - `42, 123, 456, 789, 2024`.
-- **Test period:** January-December 2023.
 - **Determinism:** random seeds are set for Python, NumPy, PyTorch (CPU/CUDA), and
   the data loaders; splits are chronological to avoid temporal leakage; the feature
   scaler is fit on the training split only.
