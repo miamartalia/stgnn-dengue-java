@@ -41,8 +41,6 @@ be re-run once access is obtained.
 
 ## Reproducing the public portions
 
-## Reproducing the public portions
-
 The provided `indonesia_kabupaten.geojson` contains the public administrative
 boundaries used in this study, and `df_centroid.csv` contains the corresponding
 district centroid coordinates.
